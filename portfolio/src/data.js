@@ -1,0 +1,121 @@
+export const project = [
+  {
+    id: 1,
+    name: "News App",
+    description:
+      "The News API App project leverages open APIs to fetch real-time news data, implemented using React.js for the frontend and Node.js with MongoDB for the backend. It provides a user-friendly interface to browse, search, and filter news articles, offering a seamless experience for accessing up-to-date information.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "MERN",
+    img: "assets/img5.png",
+    url: "https://github.com/ashishgalwar7891/News_app_api",
+  },
+  {
+    id: 2,
+    name: "project 2",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui excepturi laboriosam fuga dolor sapiente. Placeat.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "MEAN",
+    img: "assets/img7.jpg",
+    url: "https://github.com",
+  },
+  {
+    id: 3,
+    name: "E-Commerce App",
+    description:
+      "The E-commerce App is built with React.js for a dynamic and intuitive user interface. Backend functionalities are powered by Node.js and Express.js, with MongoDB handling the database management. It offers seamless shopping experiences, secure payment gateways, and efficient order management, ensuring a smooth and reliable e-commerce platform.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "MERN",
+    img: "assets/img4.png",
+    url: "https://github.com/ashishgalwar7891/E-Comm_App_ReactJs",
+  },
+  {
+    id: 4,
+    name: "Pokemon App",
+    description:
+      "Create a Pokémon project utilizing an open API, React.js for frontend development, MongoDB for database storage, and Node.js for backend operations. Users can browse and search for Pokémon, view details, and manage favorites. Implement authentication, data caching, and seamless CRUD operations for a dynamic and engaging experience.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "MERN",
+    img: "assets/img6.png",
+    url: "https://github.com/ashishgalwar7891/Pokemon",
+  },
+  {
+    id: 5,
+    name: "DispatchDynamo App",
+    description:
+      "The Dispatch Dynamo Logistics application, built with Angular for the frontend and Spring Boot for the backend, seamlessly integrates MongoDB and MySQL databases. It streamlines logistics operations, allowing efficient dispatching and tracking of shipments. Its intuitive interface enhances user experience, optimizing logistics management for businesses of all scales.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "Angular/Springboot",
+    img: "assets/img3.png",
+    url: "https://github.com/ashishgalwar7891/Dispatch-Dynamo",
+  },
+  {
+    id: 6,
+    name: "project 6",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui excepturi laboriosam fuga dolor sapiente. Placeat.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "ReactJS/Springboot",
+    img: "assets/img8.jpg",
+    url: "https://github.com",
+  },
+  {
+    id: 7,
+    name: "Jukebox App",
+    description:
+      "The E-commerce App is built with React.js for a dynamic and intuitive user interface. Backend functionalities are powered by Node.js and Express.js, with MongoDB handling the database management. It offers seamless shopping experiences, secure payment gateways, and efficient order management, ensuring a smooth and reliable e-commerce platform.",
+    Alltype: [
+      "All",
+      "Java",
+      "MREN",
+      "MEAN",
+      "Angular/Springboot",
+      "ReactJS/Springboot",
+    ],
+    mytype: "Java",
+    img: "assets/JavaProgramming.jpg",
+    url: "https://github.com/ashishgalwar7891/Jukebox",
+  },
+];

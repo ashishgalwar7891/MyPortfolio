@@ -1,15 +1,21 @@
 import React from 'react'
 import { HiMiniCheckBadge } from "react-icons/hi2";
 
-const Skills = () => {
+const Skills = ({ mode }) => {
   return (
     <>
-      <div className="flex justify-center items-center p-12">
-        <div className="text-center w-[80%]">
-          <h1 className="text-3xl">Skills</h1>
-          <p className="text-lg">My Technical Level</p>
-          <div className="flex flex-wrap justify-around">
-            <div className="text-center p-3 m-4 rounded-lg shadow-2xl w-[40%]">
+      <div className="flex justify-center items-center p-12" id="skills">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold">Skills</h1>
+          <p className="text font-serif pb-6">My Technical Level</p>
+          <div className="flex justify-around flex-wrap">
+            <div
+              className={`text-center p-3 m-4 rounded-lg shadow-2xl min-w-[400px] xl:min-w-[500px] ${
+                mode === "dark-mode"
+                  ? "bg-black text-white"
+                  : "bg-white text-black"
+              }`}
+            >
               <h1 className="text-2xl p-2">Frontend Developer</h1>
               <div className="flex justify-around ">
                 <div className="text-left">
@@ -18,197 +24,173 @@ const Skills = () => {
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
                       HTML
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      CSS
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Advanced</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      JavaScript
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                 </div>
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      React
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Angular
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Advanced</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      BootStrap
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Advanced</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center p-3 m-4 rounded-lg shadow-2xl w-[40%]">
-              <h1 className="text-2xl p-2">Frontend Developer</h1>
+            <div
+              className={`text-center p-3 m-4 rounded-lg shadow-2xl min-w-[400px] xl:min-w-[500px] flex-wrap ${
+                mode === "dark-mode"
+                  ? "bg-black text-white"
+                  : "bg-white text-black"
+              }`}
+            >
+              <h1 className="text-2xl p-2">Backend Developer</h1>
               <div className="flex justify-around ">
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Java
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Node js
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Advance</p>
                   </div>
                 </div>
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Spring Boot
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Express js
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center p-3 m-4 rounded-lg shadow-2xl w-[40%]">
-              <h1 className="text-2xl p-2">Frontend Developer</h1>
+            <div
+              className={`text-center p-3 m-4 rounded-lg shadow-2xl min-w-[400px] xl:min-w-[500px] flex-wrap ${
+                mode === "dark-mode"
+                  ? "bg-black text-white"
+                  : "bg-white text-black"
+              }`}
+            >
+              <h1 className="text-2xl p-2">Databases</h1>
               <div className="flex justify-around ">
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      MYSQL
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Advance</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      MongoDB
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                 </div>
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      ElasticSearch
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Basic</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Neo4j
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Basic</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="text-center p-3 m-4 rounded-lg shadow-2xl w-[40%]">
-              <h1 className="text-2xl p-2">Frontend Developer</h1>
+            <div
+              className={`text-center p-3 m-4 rounded-lg shadow-2xl min-w-[400px] xl:min-w-[500px] flex-wrap ${
+                mode === "dark-mode"
+                  ? "bg-black text-white"
+                  : "bg-white text-black"
+              }`}
+            >
+              <h1 className="text-2xl p-2">DevOps</h1>
               <div className="flex justify-around ">
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Git
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      GitHub
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Basic</p>
                   </div>
                 </div>
                 <div className="text-left">
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      Docker
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Intermediate</p>
                   </div>
                   <div className="m-2">
                     <h1 className="text-lg">
                       <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
+                      GitLab
                     </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
-                  </div>
-                  <div className="m-2">
-                    <h1 className="text-lg">
-                      <HiMiniCheckBadge className="inline mr-2" size={20} />
-                      HTML
-                    </h1>
-                    <p className="text-sm ml-6">Intermediate</p>
+                    <p className="text-sm font-thin ml-8">Basic</p>
                   </div>
                 </div>
               </div>
